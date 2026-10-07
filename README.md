@@ -1,2 +1,3 @@
-# test-website
-Website created with Pagelo
+# Test Website
+
+Website created with Pagelo. Edit it visually, then save and publish it.

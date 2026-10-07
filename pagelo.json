@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "site": {
+    "name": "Test Website",
+    "description": "A thoughtful home for your writing and ideas."
+  },
+  "theme": {
+    "colors": {
+      "background": "#f8f5ee",
+      "surface": "#ece7db",
+      "text": "#262b27",
+      "muted": "#68716a",
+      "accent": "#577f69"
+    },
+    "headingFont": "Georgia",
+    "bodyFont": "Inter",
+    "cornerRadius": 16,
+    "buttonStyle": "rounded",
+    "spacing": "comfortable"
+  },
+  "header": {
+    "brand": "Test Website"
+  },
+  "footer": {
+    "text": "© 2026 Test Website"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "slug": "index",
+      "name": "Home",
+      "title": "Test Website",
+      "description": "Test Website — welcome to our website.",
+      "sections": [
+        {
+          "id": "welcome",
+          "kind": "hero",
+          "eyebrow": "NOTES FROM MY CORNER",
+          "title": "A little space to think",
+          "body": "Stories, lessons, and small discoveries from the things I care about.",
+          "align": "center",
+          "blocks": [
+            {
+              "id": "hero-button",
+              "type": "button",
+              "text": "Say hello",
+              "href": "#contact"
+            }
+          ]
+        },
+        {
+          "id": "about",
+          "kind": "about",
+          "eyebrow": "A LITTLE ABOUT US",
+          "title": "A good fit for Test Website",
+          "body": "This is a growing collection of things I’ve learned, places I’ve been, and ideas I can’t stop turning over.",
+          "align": "left",
+          "blocks": []
+        },
+        {
+          "id": "features",
+          "kind": "features",
+          "title": "A few good things",
+          "blocks": [
+            {
+              "id": "feature-1",
+              "type": "heading",
+              "level": 3,
+              "text": "Recent notes"
+            },
+            {
+              "id": "feature-1-copy",
+              "type": "text",
+              "text": "Made with care, shaped around what matters to you."
+            },
+            {
+              "id": "feature-2",
+              "type": "heading",
+              "level": 3,
+              "text": "Things I recommend"
+            },
+            {
+              "id": "feature-2-copy",
+              "type": "text",
+              "text": "A little more thoughtful at every step."
+            },
+            {
+              "id": "feature-3",
+              "type": "heading",
+              "level": 3,
+              "text": "A note from you"
+            },
+            {
+              "id": "feature-3-copy",
+              "type": "text",
+              "text": "Good people, here to help when you need us."
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "kind": "cta",
+          "title": "Say hello",
+          "body": "We’d love to hear what you have in mind.",
+          "align": "center",
+          "blocks": [
+            {
+              "id": "contact-button",
+              "type": "button",
+              "text": "Get in touch",
+              "href": "mailto:hello@example.com"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
